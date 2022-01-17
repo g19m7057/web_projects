@@ -25,3 +25,8 @@
     max-width: 100%;
     height: auto;
   }
+  #button{
+    width: 3rem;
+    background-color: rgb(197, 197, 197);
+    box-shadow: 3px;
+  }
