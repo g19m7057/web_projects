@@ -1,0 +1,27 @@
+#main{
+    margin-top: 10px;
+    height: auto;
+    background: lightgrey;
+  }
+  #header{
+    padding: 50px;
+    height: 50px;
+    text-align: center;
+    height: 15%;
+  }
+  #title{
+    font-size: 3rem;
+  }
+  #title_cap{
+    font-size: 20px;
+  }
+  #img-div{
+    padding: 10em;
+    background: white;
+    text-align: center;
+  }
+  #image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
