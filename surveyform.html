@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body{
+            background-color: rgb(48, 47, 47);
+        }
+        form{
+            background: rgb(71, 71, 71);
+            padding: 2%;
+            margin: 5%;
+        }
+        #name, #email, #res{
+            width: 60%;
+            margin-top: 3px;
+            margin-bottom: 5px;
+        }
+        #number{
+            width: minmax(90%, 300px);
+            margin-top: 3px;
+            margin-bottom: 5px;
+            color:rgb(0, 0, 0);
+        }
+        #rec_p{
+            height: 1px;
+            margin-bottom: -0.1px;
+        }
+        header{
+            text-align: center;
+        }
+        #title{
+            color: rgb(0, 0, 0);
+        }
+        #description{
+            color: rgb(255, 255, 255);
+        }
+        #dropdown{
+            margin-top: 3px;
+            margin-bottom: 5px;
+        }
+        #res{
+            margin-top: 6px;
+        }
+        #exp{
+            margin-bottom: 2px;
+        }
+        #check2{
+            margin-bottom: 10px;
+        }
+        label{
+            color: rgb(223, 221, 221);
+        }
+        p{
+            color: rgb(223, 221, 221);
+        }
+    </style>
+</head>
+</body>
+<header>
+<h1 id="title">Galaxy GYM survey form</h1>
+<p id="description"> This is a short survey to help improve our services offered</p>
+</header>
+<form id="survey-form">
+    <label id="name-label">Name</label></br>
+    <input type="text" id="name" placeholder="enter your full name" required></br>
+    <label id="email-label">Email</label></br>
+    <input type="email" id="email" placeholder="enter your email" required></br>
+    <label id="number-label">How many months have you been a member of our gym</label></br>
+    <input type="number" min="0" max="90" id='number' placeholder="enter numebr of months"></br>
+    <label for="exercises">Whats your go-to exercise</label></br>
+    <select name="exercises" id="dropdown">
+        <option value="" disabled selected hidden>Choose exercise...</option>
+        <option value="dumbbells">Dumbbells</option>
+        <option value="weights">Weights</option>
+    </select>
+    <p id='exp'>What has your experience been like</p>
+    <input type="radio" name="rating" id="great" value="great">
+    <label for="great">great</label></br>
+    <input type="radio" name="rating" id="good" value="good">
+    <label for="good">good</label></br>
+    <input type="radio" name="rating" id="meeeh" value="meeeh">
+    <label for="meeeh">meeeh</label></br>
+    <p id="rec_p">Would you recommend us</p><br>
+    <input type="checkbox" name="recommend" value="yes" id="check1">
+    <label for="check1">Yes</label></br>
+    <input type="checkbox" name="recommend" value="no" id="check2">
+    <label for="check2">No</label></br>
+    <label for="reason" >Would you mind telling us where we can improve</label></br>
+    <textarea name="comment" form="survey-form" id="res">Enter comment here...</textarea></br>
+    <button type='submit' id='submit'>submit</button>
+</form>
+</body>
+</html>
