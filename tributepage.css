@@ -2,29 +2,31 @@
     margin-top: 10px;
     height: auto;
     background: lightgrey;
-  }
-  #header{
+}
+
+#header{
     padding: 50px;
     height: 50px;
     text-align: center;
     height: 15%;
-  }
-  #title{
+}
+
+#title{
     font-size: 3rem;
-  }
-  #title_cap{
+}
+
+#title_cap{
     font-size: 20px;
-  }
-  #img-div{
+}
+
+#img-div{
     padding: 10em;
     background: white;
     text-align: center;
-  }
-  #image{
+}
+
+#image{
     display: block;
     max-width: 100%;
     height: auto;
-  }
-  #button{
-      text-align: center;
-  }
+}

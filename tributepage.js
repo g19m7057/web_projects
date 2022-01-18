@@ -1,6 +1,6 @@
 // heading graph
 const heading = document.createElement("h1");
-var info = document.createTextNode("This is the tribute infomation")
+var info = document.createTextNode("Dr. Norman Borlaug tribute")
 heading.appendChild(info);
 
 // list of tribute information
